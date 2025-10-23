@@ -11,7 +11,7 @@ from dateutil import parser as dateparser
 
 # CONFIG
 FEEDS = {
-    "bd": "https://evilgodfahim.github.io/bd/articles.xml",
+    "bd": "https://evilgodfahim.github.io/bdnews/final.xml",
     "master": "https://evilgodfahim.github.io/Longreads/filtered.xml"
 }
 
