@@ -1,9 +1,9 @@
-name: Daily XML update (6:00 BD time)
+name: Daily XML update (8:30 BD time)
 
 on:
   schedule:
-    # 00:00 UTC daily = 06:00 Bangladesh time (UTC+6)
-    - cron: '0 0 * * *'
+    # 02:30 UTC daily = 08:30 Bangladesh time (UTC+6)
+    - cron: '30 2 * * *'
   workflow_dispatch:
 
 permissions:
