@@ -11,18 +11,16 @@ from dateutil import parser as dateparser
 
 # CONFIG
 FEEDS = {
-    "bd": "https://evilgodfahim.github.io/bdnews/final.xml",
+    # 'bd' feed removed as requested
     "master": "https://evilgodfahim.github.io/Longreads/filtered.xml"
 }
 
 # Output filenames
 OUTFILES = {
-    "bd": "daily_bd.xml",
     "master": "daily_master.xml"
 }
 
 LAST_SEEN_FILES = {
-    "bd": "last_seen_bd.json",
     "master": "last_seen_master.json"
 }
 
