@@ -12,7 +12,7 @@ from dateutil import parser as dateparser
 # CONFIG
 FEEDS = {
     # 'bd' feed removed as requested
-    "master": "https://evilgodfahim.github.io/Longreads/filtered.xml"
+    "master": "https://evilgodfahim.github.io/lr/curated_feed.xml"
 }
 
 # Output filenames
